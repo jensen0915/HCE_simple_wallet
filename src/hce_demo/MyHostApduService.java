@@ -18,7 +18,7 @@ public class MyHostApduService extends HostApduService {
 			(byte) 0xF0, (byte) 0x39, (byte) 0x41, (byte) 0x48, (byte) 0x14, (byte) 0x81, (byte) 0x00,
 			(byte) 0x00 // LE   (max length of expected result, 0 implies 256)
 	};
-
+	
 	@Override
 	public byte[] processCommandApdu(byte[] apdu, Bundle extras) {
 		String inboundApduDescription;
