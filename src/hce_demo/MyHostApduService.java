@@ -5,7 +5,7 @@ import java.util.Arrays;
 import android.nfc.cardemulation.HostApduService;
 import android.os.Bundle;
 import android.util.Log;
-
+ 
 public class MyHostApduService extends HostApduService {
 	static byte walletBalance = 0;
 
